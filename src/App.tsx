@@ -115,6 +115,14 @@ const BillingManagement = lazy(() => import("@/pages/BillingManagement"));
 const InnovationHub = lazy(() => import("@/pages/InnovationHub"));
 const PlatformStatus = lazy(() => import("@/pages/PlatformStatus"));
 const ApiDocs = lazy(() => import("@/pages/ApiDocs"));
+const OpenMarket = lazy(() => import("@/pages/OpenMarket"));
+const GroupBuying = lazy(() => import("@/pages/GroupBuying"));
+const ChamaDAOs = lazy(() => import("@/pages/ChamaDAOs"));
+const MpesaGoats = lazy(() => import("@/pages/MpesaGoats"));
+const AfricanHeritage = lazy(() => import("@/pages/AfricanHeritage"));
+const FeaturesPage = lazy(() => import("@/pages/Features"));
+const AboutPage = lazy(() => import("@/pages/About"));
+const SupportPage = lazy(() => import("@/pages/Support"));
 
 // Enhanced Features
 const PackStories = lazy(() => import("@/pages/enterprise/PackStories"));
@@ -194,7 +202,7 @@ const NeoSavannahToggle: React.FC<{
       </div>
     ) : (
       <div className="flex items-center gap-2 text-white">
-        <span className="text-xl">🦁</span>
+        <span className="text-xl">����</span>
         <span className="text-sm">Classic</span>
       </div>
     )}
@@ -299,7 +307,7 @@ function App() {
                     >
                       <Routes>
                         {/* Core Pages */}
-                        <Route path="/" element={<BasicTest />} />
+                        <Route path="/" element={<Index />} />
                         <Route path="/minimal" element={<MinimalIndex />} />
                         <Route path="/fixed" element={<IndexFixed />} />
                         <Route path="/original" element={<Index />} />
@@ -326,10 +334,8 @@ function App() {
                           element={<EnterpriseOnboarding />}
                         />
                         <Route path="/onboarding" element={<Onboarding />} />
-                        <Route
-                          path="/ecosystem"
-                          element={<EcosystemExpansion />}
-                        />
+                        <Route path="/ecosystem" element={<EcosystemExpansion />} />
+                        <Route path="/ecosystem-expansion" element={<EcosystemExpansion />} />
 
                         {/* Enterprise Dashboards - Tier-based */}
                         <Route
@@ -406,10 +412,11 @@ function App() {
                           path="/enterprise/ai-intelligence"
                           element={<AIIntelligenceHub />}
                         />
-                        <Route
-                          path="/enterprise/integration-management"
-                          element={<IntegrationManagement />}
-                        />
+                        <Route path="/enterprise/integration-management" element={<IntegrationManagement />} />
+                        <Route path="/group-buying" element={<GroupBuying />} />
+                        <Route path="/chama-daos" element={<ChamaDAOs />} />
+                        <Route path="/mpesa-goats" element={<MpesaGoats />} />
+                        <Route path="/ar-scanner" element={<ARProductScanner />} />
 
                         {/* Enterprise Demo & Pricing */}
                         <Route
@@ -418,15 +425,14 @@ function App() {
                         />
 
                         {/* Enhanced Features */}
-                        <Route
-                          path="/marketplace"
-                          element={<DigitalSavannaMarketplace />}
-                        />
-                        <Route
-                          path="/african-ecommerce"
-                          element={<AfricanEcommerce />}
-                        />
+                        <Route path="/marketplace" element={<DigitalSavannaMarketplace />} />
+                        <Route path="/open-market" element={<OpenMarket />} />
+                        <Route path="/african-ecommerce" element={<AfricanEcommerce />} />
+                        <Route path="/african-heritage" element={<AfricanHeritage />} />
                         <Route path="/settings" element={<Settings />} />
+                        <Route path="/features" element={<FeaturesPage />} />
+                        <Route path="/about" element={<AboutPage />} />
+                        <Route path="/support" element={<SupportPage />} />
                         <Route path="/checkout" element={<Checkout />} />
                         <Route
                           path="/billing"

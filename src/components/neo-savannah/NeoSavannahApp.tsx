@@ -616,7 +616,7 @@ const NeoSavannahApp: React.FC = () => {
       </motion.div>
 
       {/* Custom CSS for animations */}
-      <style jsx>{`
+      <style>{`
         @keyframes scanlineMove {
           0% {
             transform: translateY(-100vh);
@@ -625,8 +625,6 @@ const NeoSavannahApp: React.FC = () => {
             transform: translateY(100vh);
           }
         }
-
-        @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap");
       `}</style>
     </div>
   );
