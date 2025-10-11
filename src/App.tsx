@@ -115,6 +115,14 @@ const BillingManagement = lazy(() => import("@/pages/BillingManagement"));
 const InnovationHub = lazy(() => import("@/pages/InnovationHub"));
 const PlatformStatus = lazy(() => import("@/pages/PlatformStatus"));
 const ApiDocs = lazy(() => import("@/pages/ApiDocs"));
+const OpenMarket = lazy(() => import("@/pages/OpenMarket"));
+const GroupBuying = lazy(() => import("@/pages/GroupBuying"));
+const ChamaDAOs = lazy(() => import("@/pages/ChamaDAOs"));
+const MpesaGoats = lazy(() => import("@/pages/MpesaGoats"));
+const AfricanHeritage = lazy(() => import("@/pages/AfricanHeritage"));
+const FeaturesPage = lazy(() => import("@/pages/Features"));
+const AboutPage = lazy(() => import("@/pages/About"));
+const SupportPage = lazy(() => import("@/pages/Support"));
 
 // Enhanced Features
 const PackStories = lazy(() => import("@/pages/enterprise/PackStories"));
