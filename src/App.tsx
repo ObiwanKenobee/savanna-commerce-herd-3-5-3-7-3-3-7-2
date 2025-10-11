@@ -424,10 +424,8 @@ function App() {
                         />
 
                         {/* Enhanced Features */}
-                        <Route
-                          path="/marketplace"
-                          element={<DigitalSavannaMarketplace />}
-                        />
+                        <Route path="/marketplace" element={<DigitalSavannaMarketplace />} />
+                        <Route path="/open-market" element={<OpenMarket />} />
                         <Route
                           path="/african-ecommerce"
                           element={<AfricanEcommerce />}
