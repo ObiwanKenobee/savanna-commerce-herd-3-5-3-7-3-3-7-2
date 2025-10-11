@@ -202,7 +202,7 @@ const NeoSavannahToggle: React.FC<{
       </div>
     ) : (
       <div className="flex items-center gap-2 text-white">
-        <span className="text-xl">🦁</span>
+        <span className="text-xl">����</span>
         <span className="text-sm">Classic</span>
       </div>
     )}
@@ -412,10 +412,11 @@ function App() {
                           path="/enterprise/ai-intelligence"
                           element={<AIIntelligenceHub />}
                         />
-                        <Route
-                          path="/enterprise/integration-management"
-                          element={<IntegrationManagement />}
-                        />
+                        <Route path="/enterprise/integration-management" element={<IntegrationManagement />} />
+                        <Route path="/group-buying" element={<GroupBuying />} />
+                        <Route path="/chama-daos" element={<ChamaDAOs />} />
+                        <Route path="/mpesa-goats" element={<MpesaGoats />} />
+                        <Route path="/ar-scanner" element={<ARProductScanner />} />
 
                         {/* Enterprise Demo & Pricing */}
                         <Route
