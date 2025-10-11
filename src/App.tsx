@@ -299,7 +299,7 @@ function App() {
                     >
                       <Routes>
                         {/* Core Pages */}
-                        <Route path="/" element={<BasicTest />} />
+                        <Route path="/" element={<Index />} />
                         <Route path="/minimal" element={<MinimalIndex />} />
                         <Route path="/fixed" element={<IndexFixed />} />
                         <Route path="/original" element={<Index />} />
