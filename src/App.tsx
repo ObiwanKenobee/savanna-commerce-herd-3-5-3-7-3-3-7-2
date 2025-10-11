@@ -334,10 +334,8 @@ function App() {
                           element={<EnterpriseOnboarding />}
                         />
                         <Route path="/onboarding" element={<Onboarding />} />
-                        <Route
-                          path="/ecosystem"
-                          element={<EcosystemExpansion />}
-                        />
+                        <Route path="/ecosystem" element={<EcosystemExpansion />} />
+                        <Route path="/ecosystem-expansion" element={<EcosystemExpansion />} />
 
                         {/* Enterprise Dashboards - Tier-based */}
                         <Route
