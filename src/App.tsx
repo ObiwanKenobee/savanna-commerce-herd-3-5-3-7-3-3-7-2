@@ -431,6 +431,9 @@ function App() {
                           element={<AfricanEcommerce />}
                         />
                         <Route path="/settings" element={<Settings />} />
+                        <Route path="/features" element={<FeaturesPage />} />
+                        <Route path="/about" element={<AboutPage />} />
+                        <Route path="/support" element={<SupportPage />} />
                         <Route path="/checkout" element={<Checkout />} />
                         <Route
                           path="/billing"
