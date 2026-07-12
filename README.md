@@ -71,19 +71,6 @@ graph TD
 
 ---
 
-## 📈 Key Contracts to Pursue
-
-| Sector | Target | Contract Size | Strategy |
-|--------|--------|---------------|----------|
-| **Offshore Energy** | Eni’s Baleine Phase 2, Girassol life‑extension | $75M–$400M | Digital twin simulations + predictive maintenance |
-| **Critical Minerals** | Korean EV battery supply chains (Mozambique, Tanzania) | $30M–$150M | Blockchain traceability + ESG modules |
-| **Smart Cities** | Accra‑Savannah sister city projects | $5M–$50M | IoT utilities + FIDIC‑compliant delivery |
-| **Ethical AI** | Content moderation for Meta/TikTok (Nairobi) | $10M–$20M/yr | Trauma‑informed AI, mental health compliance |
-
-**Win Strategy**: Co‑bid with Saipem/TechnipFMC; adopt AfDB‑endorsed FIDIC templates; leverage WTCSav network.
-
----
-
 ## 📦 Getting Started (Developer)
 
 ### Prerequisites
